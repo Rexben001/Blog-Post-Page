@@ -1,0 +1,262 @@
+$color_1: #868e96;
+$color_2: #343a40;
+$color_3: #3b3b3b;
+$color_4: #fff;
+$color_5: #000;
+$color_6: #495057;
+$color_7: #f00;
+$color_8: darkcyan;
+$color_9: #000000;
+$font-family_1: 'Poppins', sans-serif;
+$background-color_1: #fff;
+$background-color_2: #c6c6c6;
+
+@import 'https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600';
+body {
+  font-family: $font-family_1;
+  padding-top: 40px;
+  color: $color_1;
+  background-color: $background-color_1;
+}
+h1 {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $color_2;
+  font-size: 5rem;
+  line-height: 5.5rem;
+}
+h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $color_2;
+  font-size: 3.5rem;
+}
+h3 {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $color_2;
+}
+h4 {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $color_2;
+}
+h5 {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $color_2;
+}
+h6 {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $color_2;
+}
+p {
+  font-size: 1.1rem;
+}
+.intro-p {
+  font-size: 12px;
+}
+input#subs-email {
+  width: 60%;
+  margin-right: 1em;
+}
+#subscribe {
+  margin-bottom: -150px;
+  .subs-box {
+    position: relative;
+    background-color: $background-color_2;
+    margin: 2em auto;
+    padding: 2em 1em;
+    width: 90%;
+    min-height: 40px;
+    color: $color_3;
+    span {
+      position: absolute;
+      right: 5px;
+      top: 0px;
+      font-size: 2em;
+    }
+  }
+  input[type='email'] {
+    padding: 0.3em;
+    margin-left: 100px;
+  }
+  input[type='submit'] {
+    border: none;
+    padding: 0.3em;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #666;
+    color: $color_4;
+    font-weight: 100;
+    margin-left: 10px;
+    &:hover {
+      box-shadow: inset 0 0 0 2px #e9ecef;
+      background: #ddd;
+      color: $color_5;
+    }
+  }
+}
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: $font-family_1;
+  font-size: 1.5rem;
+}
+.list-social-icons {
+  a {
+    color: $color_6;
+    &:hover {
+      color: $color_4;
+    }
+    .fa-lg {
+      font-size: 1.75rem;
+    }
+  }
+}
+.list-icons {
+  font-size: 3rem;
+  .list-inline-item {
+    i {
+      &:hover {
+        color: $color_4;
+      }
+    }
+  }
+}
+.head-img {
+  width: 70%;
+}
+#sideNav {
+  border-right: #000 solid 1px;
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        font-weight: 600;
+      }
+    }
+  }
+}
+.sideNavSubs {
+  input[type='email'] {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 150px;
+  }
+  input[type='submit'] {
+    border: none;
+    padding: 0.3em;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #666;
+    color: $color_4;
+    font-weight: 100;
+    margin-left: 10px;
+    &:hover {
+      box-shadow: inset 0 0 0 2px #e9ecef;
+      background: #ddd;
+      color: $color_5;
+    }
+  }
+}
+section.blog-section {
+  border-bottom: 1px solid #000000;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  .blog-item {
+    .blog-date {
+      min-width: none;
+    }
+  }
+}
+.bg-primary {
+  background-color: $background-color_1 !important;
+}
+.text-primary {
+  color: $color_7 !important;
+}
+a {
+  color: $color_8;
+}
+.link {
+  &:hover {
+    text-decoration: none;
+  }
+}
+.caption {
+  color: $color_9;
+  font-size: 1.5rem;
+}
+.text-big {
+  color: $color_4;
+}
+.title-wrapper {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-top: 6em;
+}
+.loc-img {
+  width: 6em;
+  height: 6em;
+  margin-right: 1em;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+    font-family: $font-family_1;
+  }
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+    .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem;
+      .img-profile {
+        max-width: 13rem;
+        max-height: 15rem;
+        border: 0.5rem solid rgba(255, 255, 255, 0.2);
+      }
+    }
+    .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto;
+      .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+        .nav-item {
+          display: block;
+          .nav-link {
+            display: block;
+            color: $color_5;
+          }
+        }
+      }
+    }
+  }
+  section.blog-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+@media (min-width: 768px) {
+  section.blog-section {
+    min-height: 100vh;
+    .blog-item {
+      .blog-date {
+        min-width: 18rem;
+      }
+    }
+  }
+}
