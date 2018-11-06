@@ -193,8 +193,8 @@ input#subs-email {
 
 .sideNavSubs input[type='submit']:hover {
 	box-shadow: inset 0 0 0 2px #e9ecef;
-	background: #ddd;
-	color: #000;
+	background:rgba(255,255,255,0.5);
+	color: white;
 }
 
 section.blog-section {
@@ -310,5 +310,39 @@ a {
 
 	section.blog-section .blog-item .blog-date {
 		min-width: 18rem;
+	}
+}
+
+@media (max-width : 992px){
+	.bg-primary{
+		background-color: #343a40!important;
+	}
+	.navbar-dark .navbar-nav .nav-link{
+		color: rgba(255,255,255,.75);
+	}
+	.navbar-dark .navbar-nav .nav-link:hover:not(h6){
+		color: rgba(255,255,255,1);		
+	}
+	/* .nav-item:not(.nav-link),.nav-item h6{
+		color: white
+	} */
+	.navbar-dark .navbar-nav h6.nav-link,
+	.navbar-dark .navbar-nav h6.nav-link:hover,
+	.intro-p{
+		color: white;
+	}
+}
+#subscribe-box{
+	display: flex;
+	justify-content: flex-end;
+}
+@media (max-width : 450px){
+	#subscribe-box input[type='submit']{
+		width: 80px;
+		font-size: 12px;
+		padding: 10px;
+	}
+	#subscribe-box input[type='email']{
+		width: 150px;
 	}
 }
