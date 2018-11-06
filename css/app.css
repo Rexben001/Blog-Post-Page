@@ -321,7 +321,7 @@ a {
 		color: rgba(255,255,255,.75);
 	}
 	.navbar-dark .navbar-nav .nav-link:hover:not(h6){
-		color: rgba(255,255,255,1);		
+		color: rgba(255,255,255,1);
 	}
 	/* .nav-item:not(.nav-link),.nav-item h6{
 		color: white
@@ -345,4 +345,8 @@ a {
 	#subscribe-box input[type='email']{
 		width: 150px;
 	}
+}
+.spanner{
+	border-top:1px dotted black;
+	border-bottom:1px dotted black;
 }
