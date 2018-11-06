@@ -30,8 +30,8 @@
     <script type='application/ld+json'>
         {
             "@context": "http://www.schema.org",
-            "@type": "NettyFinder",
-            "name": "NettyFinder",
+            "@type": "",
+            "name": "",
             "url": "",
             "logo": "assets/img/logo.png",
             "description": ""
@@ -49,115 +49,132 @@
     <link rel="shortcut icon" href="assets/img/logo.png">
 </head>
 
-<body>
-    <div class="container-fuid">
-        <div class="row">
-            <aside id="main-sidebar" class="col-4">
-                <!-- TODO add sidebar here  -->
-                <div id="container">
-                    <div>
-                        <p>Sidebar Menu</p>
-                        <img src="" alt="">
-                        <h3>Mark Essien</h3>
-                        <p>founder ,Hotels.ng and idea guy at startups</p>
-                    </div>
+<body id="page-top">
 
-                    <div>
-                        <p>Blog</p>
-                    </div>
-
-                    <div>
-                        <p>Manifesto</p>
-                    </div>
-
-                    <div>
-                        <p>Diary</p>
-                    </div>
-
-                    <div>
-                        <p>Projects</p>
-                    </div>
-
-
-                    <div>
-                        <p>Biography</p>
-                    </div>
-
-                    <div>
-                        <p>Photos</p>
-                    </div>
-
-                    <div>
-                        <p>Videos</p>
-                    </div>
-
-                    <div>
-                        <p>Contact</p>
-                    </div>
-
-                    <div class="font-awesome">
-
-
-                    </div>
-
-                    <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none">MY BLOG</span>
+            <span class="d-none d-lg-block">
+                <img class="img-fluid img-profile mx-auto mb-2 head-img" src="assets/img/mark.jpg" alt="Mark Essien">
+            </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <h6 class="nav-link js-scroll-trigger"> Mark Essien</h6>
+                    <span class="intro-p">Founder Hotels.ng and Idea guy at startups</span>
+                    <br />
+                </li>
+                <li class="nav-item link">
+                    <a class="nav-link js-scroll-trigger" href="#"></i> Blog</a>
+                </li>
+                <li class="nav-item link">
+                    <a class="nav-link js-scroll-trigger" href="#manifesto"></i> Manifesto</a>
+                </li>
+                <li class="nav-item link">
+                    <a class="nav-link js-scroll-trigger" href="#diary"></i> Diary</a>
+                </li>
+                <li class="nav-item link">
+                    <a class="nav-link js-scroll-trigger" href="#projects"></i> Projects</a>
+                </li>
+                <li class="nav-item link">
+                    <a class="nav-link js-scroll-trigger" href="#bio"></i> Biography</a>
+                </li>
+                <li class="nav-item link">
+                    <a class="nav-link js-scroll-trigger" href="#photos"></i> Photos</a>
+                </li>
+                <li class="nav-item link">
+                    <a class="nav-link js-scroll-trigger" href="#videos"></i> Videos</a>
+                </li>
+                <li class="nav-item link">
+                    <a class="nav-link js-scroll-trigger" href="#contact"></i> Contact</a>
+                </li>
+                <li class=" nav-item">
+                    <i class="fab fa-facebook-f"></i> &nbsp;&nbsp;&nbsp; <i class="fab fa-twitter"></i>
+                </li>
+                <br />
+                <li class="nav-item link">
+                    <div class="sideNavSubs">
                         <form action="">
-                            <input type="email" placeholder="Email ADDRESS" required>
+                            <input type="email" placeholder="EMAIL ADDRESS" required>
+                            <input type="submit" value="Subscribe">
                         </form>
-                        <button class="button">Subscribe</button>
                     </div>
-
-                </div>
-            </aside>
-            <main id="main-content" class="col-8">
-
-                <header id="main-header">
-                    <!-- TODO add subscription box here -->
-                    <div class="subs-box">
-                        <span>&times;</span>
-                        <p>Welcome to my blog. This here will be some intror text tht kind o gives context to what I
-                            write and so on. People diving in will have a clearer idea of the particular person they
-                            are meeting</p>
-                        <input type="email" name="email" id="subs-email">
-                        <button type="submit">Subscribe</button>
-                    </div>
-                </header>
-
-                <section class="blog-list">
-                    <!-- TODO add blog post list here -->
-                    <div class="title-wrapper">
-                        <div class="loc-img"></div>
-                        <div>
-                            <p class="date">JAN 9, 2017</p>
-                            <h2>The Moment Awe</h2>
-                        </div>
-                    </div>
-                    <p>The reasoning behind one of the biggest disaster of the last century. It helps you curate ideas
-                        and includes everything you need to develop and publish your thoughts to the world.</p>
-
-                    <div class="title-wrapper">
-                        <div class="loc-img"></div>
-                        <div>
-                            <p class="date">FEB 26, 2016</p>
-                            <h2>A story that lasted too long</h2>
-                        </div>
-                    </div>
-                    <p>We hate when the services we use and lovere shutdown. it happens too often, and our content
-                        tends to either get lost completely or we are forced to tediously transition it to yet another
-                        services of questionable longetivity.</p>
-                </section>
-            </main>
+                </li>
+            </ul>
         </div>
-    </div>
+    </nav>
+    <section id="subscribe" class="container-fluid p-3 p-lg-5">
+        <div class="subs-box">
+            <span>&times;&nbsp;</span>
+            <p>Welcome to my blog. This here will be some intror text tht kind o gives context to what I
+                write and so on. People diving in will have a clearer idea of the particular person they
+                are meeting</p>
+            <input type="email" name="email">
+            <input type="submit" value="Subscribe"></input>
+        </div>
+    </section>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+    <!--Main Content -->
+    <div class="container-fluid p-0">
+
+        <section class="blog-section p-3 p-lg-5 d-flex flex-column" id="experience">
+            <div class="my-auto">
+                <div class="title-wrapper">
+                    <img class="loc-img img-fluid" src="assets/img/head-1.png">
+                    <div>
+                        <div class="blog-date">
+                            <span class="text-primary">JAN 9, 2017</span>
+                        </div>
+                        <br />
+                        <h3 class="mb-5">The moment of awe</h3>
+                    </div>
+                </div>
+
+                <div class="blog-item d-flex flex-column flex-md-row mb-5">
+                    <div class="blog-content mr-auto">
+                        <p>The reasoning behind one of the biggest disaster of the last century. It helps you curate
+                            ideas and includes everything you need to develop and publish your thoughts to the world.</p>
+
+                    </div>
+                </div>
+
+                <div class="my-auto">
+                    <div class="title-wrapper">
+                        <img class="loc-img img-fluid" src="assets/img/head-2.png">
+                        <div>
+                            <div class="blog-date">
+                                <span class="text-primary">Feb 26, 2016</span>
+                            </div>
+                            <br />
+                            <h3 class="mb-5">A story that lasted too long</h3>
+                        </div>
+                    </div>
+
+                    <div class="blog-item d-flex flex-column flex-md-row mb-5">
+                        <div class="blog-content mr-auto">
+                            <p>We hate when the services we use and lovere shutdown. it happens too often, and our
+                                content tends to either get lost completely or we are forced to tediously transition it
+                                to yet another services of questionable longetivity.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
